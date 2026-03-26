@@ -1,5 +1,5 @@
 # ViT Replication
-This folder contains a replication of the vision transformer from "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" (Dosovitskiy et al., 2021).
+This folder contains a replication of the vision transformer from [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/html/2010.11929v2) (Dosovitskiy et al., 2021).
 
 The training pipeline currently uses `torchvision.datasets.CIFAR10`, resized to `224x224` for the ViT input.
 
