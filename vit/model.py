@@ -125,7 +125,6 @@ class MHA(nn.Module):
             .contiguous()
             .view(n_batches, n_tokens, self.hidden_size)
         )
-        # TODO dropout?
         out = self.w_o(weighted_vals)
         return out
 
